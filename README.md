@@ -7,8 +7,14 @@ Easily search up your passwords on Have I Been Pwned's API to know how many time
 
 ### ./haveibeenpwnedApiBash.sh \<wordlist file in plaintext>||\<password in plaintext> [\<output filename>]
 
-## Returns
+Returns
 
 ### \<queried password>:\<number of times the password has been leaked>
 
+# Example
 
+```
+root@root:~# ./haveibeenpwnedApi.sh password123
+Querying password123...
+password123:114262
+```
